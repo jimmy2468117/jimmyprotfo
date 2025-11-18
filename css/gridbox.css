@@ -1,0 +1,86 @@
+/* 卡片格子 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 卡片 */
+.card {
+  background: #fff;
+  border:solid  1px #8f8f8f;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: 0.25s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* ----------- 圖片放大動畫 ----------- */
+.card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 16px;
+
+    border:solid  1px #8f8f8f;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+/* hover 時放大 */
+.card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+/* ----------- Tag 標籤 ----------- */
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: #f2f2f2;
+  color: #555;
+  border-radius: 8px;
+}
+
+/* ----------- 標題 / 副標 ----------- */
+.card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 6px;
+  color: #111;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+.footer{
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;}
+
+
+  

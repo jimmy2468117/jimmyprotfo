@@ -1,0 +1,230 @@
+@charset "utf-8";
+html, body {margin: 0;padding: 0;}
+
+div, p5  { 
+  text-align: center;
+  color: rgb(138, 48, 255);
+}
+
+
+h1{font-size: large;
+ position:absolute;
+  padding: 0px 20px;
+  top:0;
+  line-height: 80px;
+}
+
+header{background-color: rgb(0, 0, 0);
+  
+height: 80px;
+width: 100%;
+
+position:relative;
+}
+h1{color: #e7e7e7;}
+header a {color: #ffffff;text-decoration:none ;}
+
+ul.list {
+  color: #b9ff48;
+}
+
+header li {display: inline;
+margin: right 4vm;
+ margin: 6px 5px;
+}
+
+header ul { 
+  display: flex;
+  position:absolute;
+  right:5vw;
+  top:0;
+  line-height: 80px;
+  
+}
+
+
+
+
+
+
+body {
+  background-color: rgb(255, 255, 255);
+background-size: 20px 100px ;
+
+}
+
+div.twobutton{
+   position: relative;
+  width: 100vw;
+  height: 100vh;        /* 調整你想要的高度 */
+  left: 50%;
+  margin-left: -50vw;
+  background-image: url("./img/project3-3.jpg");   /* ← 放你的背景圖 */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+  gap:8px;
+ /* background-color: rgb(90, 255, 227);
+  
+height: 800px;
+width: 100%;
+*/
+
+position:relative;
+}
+
+
+.button4{
+margin-top: 20%;
+
+}
+
+
+.profo2{
+display: flex;
+ top:-8px;
+ gap:8px;
+  background-color: rgb(90, 255, 227);
+  
+height: 800px;
+width: 100%;}
+
+
+/* 卡片格子 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 卡片 */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: 0.25s;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* ----------- 圖片放大動畫 ----------- */
+.card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+/* hover 時放大 */
+.card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+/* ----------- Tag 標籤 ----------- */
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: #f2f2f2;
+  color: #555;
+  border-radius: 8px;
+}
+
+/* ----------- 標題 / 副標 ----------- */
+.card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 6px;
+  color: #111;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+.footer{
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;}
+
+
+  .buttonx {
+   
+    
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-betewwn;
+  gap: 10px;
+  background-color: rgb(161, 255, 20);
+  border-radius: 30px;
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  border: none;
+
+  position:absolute;
+  right:25vw;
+  top:0;
+  line-height: 80px;
+
+  top:20px;
+  cursor: pointer;
+  transition-duration: .2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  padding-left: 8px;
+  transition-duration: .5s;
+  
+}
+
+.svgIcon {
+  height: 25px;
+  transition-duration: 1.5s;
+}
+
+.bell path {
+  fill: rgb(19, 19, 19);
+}
+
+.buttonx:hover {
+  background-color: rgb(192, 255, 20);
+  transition-duration: .5s;
+}
+
+.buttonx:active {
+  transform: scale(0.97);
+  transition-duration: .2s;
+}
+
+.buttonx:hover .svgIcon {
+  transform: rotate(250deg);
+  transition-duration: 1.5s;
+}

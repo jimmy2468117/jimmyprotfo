@@ -1,5 +1,5 @@
 nav {
-    padding: 20px 50px;
+    padding: 0px 0px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -7,7 +7,20 @@ nav {
 
     h1 {
         color: white;
+        width: 50%;
+  height: 100px;
+    background-image: url("../img/bk6.png");
+  background-size: cover;           /* 或 contain / 特定尺寸 */
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  
+  
+
     }
+
+
+
 
     div.nav {
         margin: 3px;
@@ -19,6 +32,7 @@ nav {
             align-items: center;
 
             color: greenyellow;
+            white-space: nowrap;
 
             li {
                 padding: 5px;
@@ -34,7 +48,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-betewwn;
-    gap: 10px;
+    gap: 4px;
     background-color: rgb(161, 255, 20);
     border-radius: 30px;
     color: rgb(19, 19, 19);
@@ -76,6 +90,6 @@ nav {
 }
 
 .buttonx:hover .svgIcon {
-    transform: rotate(250deg);
+    transform: rotate(360deg);
     transition-duration: 1.5s;
 }

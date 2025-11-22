@@ -13,15 +13,21 @@
   background: #fff;
   border-radius: 16px;
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: 0.25s;
   cursor: pointer;
   overflow: hidden;
+  border: solid 1px #8f8f8f;
 }
 
 .card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* hover 時放大 */
+.card:hover .card-image img {
+  transform: scale(1.08);
 }
 
 /* ----------- 圖片放大動畫 ----------- */
@@ -32,7 +38,7 @@
   border-radius: 12px;
   margin-bottom: 16px;
 
-    border:solid  1px #8f8f8f;
+  border: solid 1px #8f8f8f;
 }
 
 .card-image img {
@@ -42,10 +48,7 @@
   transition: transform 0.35s ease;
 }
 
-/* hover 時放大 */
-.card:hover .card-image img {
-  transform: scale(1.08);
-}
+
 
 /* ----------- Tag 標籤 ----------- */
 .tags {
@@ -75,11 +78,9 @@
   margin: 0;
 }
 
-.footer{
+.footer {
   text-align: center;
   font-size: 0.9rem;
   color: #777;
-  margin: 0;}
-
-
-  
+  margin: 0;
+}

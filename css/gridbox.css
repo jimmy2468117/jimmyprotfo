@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* 卡片格子 */
 .card-grid {
   display: grid;

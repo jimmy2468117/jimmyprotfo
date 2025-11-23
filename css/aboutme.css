@@ -12,20 +12,28 @@
 
 div.about-me {
       text-align: left;
-    align-items: flex-start;
-    margin: 20px 30px;
+      width:80%;
+      max-width: 800px;
+   
+    margin: 0 auto;
     color: #fff;
-padding: 4px 200px;
+padding: 4px 20px;
 white-space: nowrap;
 
 }
 
 div.skill {
+ text-align: left;
+      width:80%;
+      max-width: 800px;
+   
+    margin: 0 auto;
+
     white-space: nowrap;
-  padding: 4px 200px;
+  padding: 4px 20px;
     text-align: left;
     align-items: flex-start;
-    margin: 20px 30px;
+   
     color: #fff;
 }
 

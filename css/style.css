@@ -8,18 +8,14 @@
 
 @charset "utf-8";
   
-@media (max-width: 1320px) {
-    h2 { font-size: 12vw !important; }        /* 跟螢幕寬度成正比，超大超爽 */
-    .subtitle { font-size: 4.5vw !important; }
-    .btns a {
-        padding: 1.5rem 4rem !important;
-        font-size: 4.5vw !important;
-    }
+@media screen and (max-width: 600px) {
+    h2 { font-size: 90px; }        
+ h3 { font-size: 70px; } 
+ h4 { font-size: 70px; } 
+ h5 { font-size: 60px; } 
 
- p { font-size: 6vw !important; }        /* 跟螢幕寬度成正比，超大超爽 */
-   
-    
-
+ p { font-size: 20px; }        /* 跟螢幕寬度成正比，超大超爽 */
+  
 
   }
 

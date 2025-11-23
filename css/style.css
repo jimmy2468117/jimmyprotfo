@@ -4,14 +4,69 @@
 
   @import url(gridbox.css);
 
+  @import url(/css/about-me.css);
+
+
+  
+  h5 {
+    color: #fff;
+  
+    font-size: 20px;
+  }
+
+
+  h4 {
+    color: #fff;
+  
+    font-size: 30px;
+  }
+
+  h3 {
+    padding-top: 150px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+  }
+
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+  }
+
+  h1 {
+    color: white;
+    width: 500px;
+    height: 100px;
+    background-image: url("../img/art4.png");
+    display: flex;
+    background-size: cover;
+    /* 或 contain / 特定尺寸 */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+
+
+
+  }
+
+
+
+
   html,
   body {
     margin: 0;
     padding: 0;
+
+    background-color: #000000;
   }
 
-  
- 
+
+
 
   ul {
     list-style: none;
@@ -20,6 +75,6 @@
   .footer {
     text-align: center;
     font-size: 0.9rem;
-    color: #777;
+    color: #c0c0c0;
     margin: 0;
   }

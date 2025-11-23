@@ -1,21 +1,25 @@
 nav {
-    padding: 0px 0px;
-    background-color: black;
+
+
+    background-color: #000000;
+    margin-right: -10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     h1 {
         color: white;
-        width: 50%;
-  height: 100px;
-    background-image: url("../img/bk6.png");
-  background-size: cover;           /* 或 contain / 特定尺寸 */
-  background-position: center;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
-  
-  
+        width: 500px;
+        height: 100px;
+        background-image: url("../img/art4.png");
+        display: flex;
+        background-size: cover;
+        /* 或 contain / 特定尺寸 */
+        background-position: center;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+
+
 
     }
 
@@ -23,15 +27,16 @@ nav {
 
 
     div.nav {
-        margin: 3px;
+        margin-right: 20px;
         display: flex;
+        
 
         ul {
             display: flex;
             justify-content: space-between;
             align-items: center;
 
-            color: greenyellow;
+            color: rgb(60, 184, 255);
             white-space: nowrap;
 
             li {
@@ -42,14 +47,26 @@ nav {
     }
 }
 
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* hover 時放大 */
+li:hover .card-image img {
+  transform: scale(1.08);
+}
+
 .buttonx {
+
+    margin: 20px;
     width: 110px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-betewwn;
     gap: 4px;
-    background-color: rgb(161, 255, 20);
+    background-color: rgb(255, 232, 26);
     border-radius: 30px;
     color: rgb(19, 19, 19);
     font-weight: 600;
@@ -73,6 +90,8 @@ nav {
 .svgIcon {
     height: 25px;
     transition-duration: 1.5s;
+   
+
 }
 
 .bell path {
@@ -80,7 +99,7 @@ nav {
 }
 
 .buttonx:hover {
-    background-color: rgb(192, 255, 20);
+    background-color: rgb(255, 157, 20);
     transition-duration: .5s;
 }
 

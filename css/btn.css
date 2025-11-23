@@ -1,22 +1,43 @@
 @charset "utf-8";
 
+h3{
+   text-align: center;
+   align-items: center;
+  font-size: 30px;}
+
+h2{
+   text-align: center;
+   align-items: center;
+  font-size: 50px;}
 
 div.twobutton {
-  position: relative;
+  
   width: 100vw;
   height: 100vh;
   /* 調整你想要的高度 */
   left: 50%;
   margin-left: -50vw;
   
-  background-image: url("../img/project3-3.jpg");
+  background-image: url("../img/bk6.png");
   /* ← 放你的背景圖 */
   background-size: cover;
   background-position: center;
-  display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   color: #fff;
+ display: flex;
+        background-size: cover;
+        /* 或 contain / 特定尺寸 */
+       flex-direction: column;
+        background-repeat: no-repeat;
+
+background-color: rgba(110, 110, 110, 0.6);
+background-blend-mode: multiply;
+
+  background-size: cover;
+  background-position: center center;
+
 
   gap: 8px;
   /* background-color: rgb(90, 255, 227);
@@ -28,19 +49,31 @@ width: 100%;
   position: relative;
 }
 
+a {
+  text-decoration: none; /* 預設無底線 */
+ gap: 80px;
+ margin: 10px 10px;
+ 
 
+}
+a:hover {
+  text-decoration: none; /* 懸停時顯示底線 */
+}
 
 
 .button {
-  background-color: #ff7729;
+
+ text-decoration: none;
+  
+  background-color: #ff29ed;
   border: none;
   color: white;
   padding: 15px;
   text-align: center;
-  text-decoration: none;
+  
   display: inline-block;
   font-size: 20px;
-  margin: 6px 2px;
+  margin: 0px 0px;
   cursor: pointer;
   transition-duration: 0.4s;
 }

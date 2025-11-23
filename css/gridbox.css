@@ -71,6 +71,7 @@
   background: #6f6f6f;
   color: #ffffff;
   border-radius: 8px;
+  white-space: nowrap;
 }
 
 /* ----------- 標題 / 副標 ----------- */

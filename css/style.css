@@ -6,8 +6,26 @@
 
   @import url(aboutme.css);
 
-
+@charset "utf-8";
   
+@media (max-width: 768px) {
+    h2 { font-size: 12vw !important; }        /* 跟螢幕寬度成正比，超大超爽 */
+    .subtitle { font-size: 4.5vw !important; }
+    .btns a {
+        padding: 1.5rem 4rem !important;
+        font-size: 4.5vw !important;
+    }
+
+ p { font-size: 6vw !important; }        /* 跟螢幕寬度成正比，超大超爽 */
+   
+    
+
+
+  }
+
+
+
+
   h5 {
     color: #fff;
   
@@ -78,3 +96,14 @@
     color: #c0c0c0;
     margin: 0;
   }
+
+/*Typing Animation*/
+  .cursor {
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  50.01%, 100% { opacity: 0; }
+}

@@ -6,6 +6,7 @@
     text-align: center;
     align-items: center;
     font-size: 15px;
+    white-space: nowrap;
   }
 
 
@@ -15,6 +16,7 @@ div.about-me {
     margin: 20px 30px;
     color: #fff;
 padding: 4px 200px;
+white-space: nowrap;
 
 }
 

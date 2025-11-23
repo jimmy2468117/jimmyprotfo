@@ -1,9 +1,12 @@
 @charset "utf-8";
 
 h3{
+   background-color: #000000;
+    color: #fff;
    text-align: center;
    align-items: center;
   font-size: 30px;}
+  
 
 h2{
    text-align: center;
@@ -32,7 +35,7 @@ div.twobutton {
        flex-direction: column;
         background-repeat: no-repeat;
 
-background-color: rgba(110, 110, 110, 0.6);
+background-color: rgba(0, 0, 0, 0.6);
 background-blend-mode: multiply;
 
   background-size: cover;

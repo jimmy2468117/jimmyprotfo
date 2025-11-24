@@ -3,18 +3,27 @@
 /* 卡片格子 */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 32px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-    background: #000000;
+  
+  gap: 16px;
+  padding: 0px;
+  
+  margin: 20px;
+    align-items: center;
+   align-content: center;
+   
+  grid-template-columns: repeat(4, 1fr);
+  
+  margin-bottom: 30px;
+  object-fit: cover;
+      
 }
 
 #carda {
   background:  rgb(255, 225, 57);
 }
-
+#cardb {
+  background:  rgb(198, 198, 198);
+}
 
 /* 卡片 */
 .card {
@@ -41,12 +50,15 @@
 /* ----------- 圖片放大動畫 ----------- */
 .card-image {
   width: 100%;
-  height: 300px;
+  height: 60%;
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 16px;
 
   border: solid 0px #8f8f8f;
+ align-items: center;
+   align-content: center;
+
 }
 
 .card-image img {
@@ -54,6 +66,8 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.35s ease;
+   align-items: center;
+   align-content: center;
 }
 
 

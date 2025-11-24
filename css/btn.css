@@ -9,7 +9,7 @@ div.twobutton {
   /* 調整你想要的高度 */
   left: 50%;
   margin-left: -50vw;
-  
+  padding: 0px;
   background-image: url("../img/bk6.png");
   /* ← 放你的背景圖 */
   background-size: cover;
@@ -41,11 +41,12 @@ width: 100%;
   position: relative;
 }
 
-a {
+#ida {
+  a {
   text-decoration: none; /* 預設無底線 */
- gap: 80px;
- margin: 10px 10px;
- 
+
+ margin: 10px 5px;
+  }
 
 }
 a:hover {

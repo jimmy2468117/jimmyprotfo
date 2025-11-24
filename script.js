@@ -1,4 +1,4 @@
-const words = ["Hello", "React Bits", "Text Animation"];
+const words = ["Welcome to my portfolio.", "This is the work of"];
 let part = 0;
 let index = 0;
 let reverse = false;
@@ -6,7 +6,7 @@ let reverse = false;
 function type() {
   let text = words[part].substring(0, index);
   document.getElementById("text").innerHTML =
-    text + '<span class="cursor">|</span>';
+    text + '<span class="cursor">_</span>';
 
   if (!reverse) {
     index++;

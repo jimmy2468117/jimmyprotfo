@@ -17,10 +17,32 @@
  p { font-size: 18px; }        /* 跟螢幕寬度成正比，超大超爽 */
    div.p1 {font-size: 18px; } 
 
+.card-grid {
+  display: grid;
+  
+  gap: 16px;
+  padding: 0px;
+  
+  margin: 20px;
+    align-items: center;
+   align-content: center;
+   
+  grid-template-columns: repeat(3, 1fr);
+  
+  margin-bottom: 30px;
+  object-fit: cover;
+      
+}
+
+
+
+
+
   }
 
 
-
+a {
+  text-decoration: none; /* 預設無底線 */}
 
   h5 {
     color: #fff;
